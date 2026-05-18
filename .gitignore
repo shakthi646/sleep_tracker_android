@@ -1,15 +1,147 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+.gradletasknamecache
+
+# =========================
+# Android build outputs
+# =========================
+**/build/
+**/captures/
+**/release/
+**/debug/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Local configuration / SDK
+# =========================
 local.properties
+*.local.properties
+keystore.properties
+signing.properties
+
+# =========================
+# Signing / Keystores (NEVER commit)
+# =========================
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+release.keystore
+debug.keystore
+google-services.json
+play-services-credentials.json
+
+# =========================
+# Kotlin
+# =========================
+.kotlin/
+*.kotlin_module
+
+# =========================
+# KSP / KAPT generated
+# =========================
+**/generated/
+**/kspCaches/
+**/ksp/
+
+# =========================
+# Android Studio / IntelliJ
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+proguard/
+
+# =========================
+# Compose / Hilt / Room generated
+# =========================
+**/schemas/
+**/composeResources/
+
+# =========================
+# Logs / temp / caches
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.rej
+hs_err_pid*
+.cache/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Linux
+# =========================
+*~
+.directory
+.Trash-*
+
+# =========================
+# Claude Code / AI tooling
+# =========================
+.claude/
+.aider*
+.cursor/
+.continue/
+
+# =========================
+# Misc tooling
+# =========================
+.fleet/
+.vscode/
+.metals/
+.bloop/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =========================
+# Profiling output
+# =========================
+*.hprof
+captures/
+
+# =========================
+# Node (if any tooling crept in)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
