@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sleep Tracker</string>
+    <string name="tagline">Sleep smarter. Wake better.</string>
+    <string name="com_google_android_gms_fonts_certs">@array/com_google_android_gms_fonts_certs</string>
+    <string name="com_google_android_gms_fonts_certs_dev">@array/com_google_android_gms_fonts_certs_dev</string>
+    <string name="com_google_android_gms_fonts_certs_prod">@array/com_google_android_gms_fonts_certs_prod</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="night_navy">#FF080C18</color>
+    <color name="deep_slate">#FF0E1228</color>
+    <color name="midnight_indigo">#FF10173A</color>
+    <color name="accent_indigo">#FF7C83D1</color>
+    <color name="text_primary">#FFE8EAF6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

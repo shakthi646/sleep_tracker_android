@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew :app:compileDebugKotlin)",
+      "Bash(./gradlew :app:checkDebugAarMetadata)",
+      "Bash(./gradlew :app:kspDebugKotlin --stacktrace)",
+      "Bash(./gradlew clean *)",
+      "Bash(find /Users/sathya-6501/MyHome/Workspace/SleepTracker/app/src/main/java -name \"ProfileRepository.kt\" -exec cat {} \\\\;)",
+      "Bash(./gradlew :billing-sdk:tasks)",
+      "Bash(./gradlew :app:assembleDebug)"
+    ]
+  }
+}
